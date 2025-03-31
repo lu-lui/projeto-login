@@ -1,8 +1,56 @@
 @charset "UTF-8";
 
+/*estilo mobile first*/
 
 :root { /*provisorio, pegar as cores da imagem dps*/
-    --verde: #49a09d;
-    --lilas: #5f2c82;
+    --rosa: #E80059;
+    --verde: #11FF4F;
+    --azul: #0060FE;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: var(--azul);
+    height: 100vw;
+    width: 100vh;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw; 
+}
+
+#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: white;
+    width: 250px;
+    height: 500px; 
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.455);
+}
+
+#login > #imagem {
+    display: block;
+    background: var(--azul) url(../imagens/background.jpg) no-repeat center bottom;
+    background-size: cover;
+    height: 200px;
+}
+
+#login #form {
+padding: 10px;
+display: block;
+
 }
 
