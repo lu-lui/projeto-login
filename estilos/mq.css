@@ -36,7 +36,7 @@
     
     html{
         background-image: linear-gradient(to top, var(--rosa), var(--azul), var(--verde));
-        height: 100vh;
+        background-position: cover;
     }
 
     #login {
