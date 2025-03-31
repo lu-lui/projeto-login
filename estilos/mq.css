@@ -12,21 +12,31 @@
     }
 
     #login #imagem {
-        float: left;
+        float: right;
         width: 35%;
         height: 100%;
     }
 
     #login #form {
-        float: right;
+        float: left;
         width: 65%;
     }
+
+   #form h1 {
+        font-size: 2em;
+   }
+   
+    #form p {
+        font-size: 1.3em;
+    }
+
 }
 
 @media screen and (min-width: 992px) {
     
-    html, body{
+    html{
         background-image: linear-gradient(to top, var(--rosa), var(--azul), var(--verde));
+        height: 100vh;
     }
 
     #login {
@@ -43,4 +53,13 @@
         float: right;
         width: 50%;
     }
+
+    #form h1 {
+        font-size: 2em;
+   }
+   
+    #form p {
+        font-size: 1.3em;
+    }
+
 }
