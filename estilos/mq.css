@@ -3,8 +3,10 @@
 /*Outras mídias*/
 @media screen and (min-width: 768px) and (max-width: 992px) {
    
-    html, body{
-        background-image: linear-gradient(to top, var(--rosa), var(--azul), var(--verde)) no-repeat fixed;
+    body, html{
+        background-image: linear-gradient(to top, var(--rosa), var(--azul), var(--verde));
+        background-repeat: no-repeat;
+        background-attachment: fixed;
         background-size: cover;
         }
    
@@ -36,7 +38,9 @@
 @media screen and (min-width: 992px) {
     
    body, html{
-        background-image: linear-gradient(to top, var(--rosa), var(--azul), var(--verde)) no-repeat fixed;
+        background-image: linear-gradient(to top, var(--rosa), var(--azul), var(--verde));
+        background-repeat: no-repeat;
+        background-attachment: fixed;
         background-size: cover;
         }
 
