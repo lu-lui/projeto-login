@@ -4,8 +4,9 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
    
     html, body{
-        background-image: linear-gradient(to top, var(--rosa), var(--azul), var(--verde));
-    }
+        background-image: linear-gradient(to top, var(--rosa), var(--azul), var(--verde)) no-repeat fixed;
+        background-size: cover;
+        }
    
     #login {
         width: 80vw;
@@ -35,10 +36,9 @@
 @media screen and (min-width: 992px) {
     
    body, html{
-        background-image: linear-gradient(to top, var(--rosa), var(--azul), var(--verde));
-        height: 100vh;
-        width: 100vh;
-    }
+        background-image: linear-gradient(to top, var(--rosa), var(--azul), var(--verde)) no-repeat fixed;
+        background-size: cover;
+        }
 
     #login {
         width: 950px;
