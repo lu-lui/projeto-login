@@ -9,6 +9,7 @@
    
     #login {
         width: 80vw;
+        height:350px;
     }
 
     #login #imagem {
@@ -28,6 +29,11 @@
    
     #form p {
         font-size: 1.3em;
+        padding-bottom: 10px;
+    }
+
+    .campo > input {
+        width: 80%;
     }
 
 }
@@ -40,6 +46,7 @@
 
     #login {
         width: 950px;
+        height:400px;
     }
 
     #login #imagem {
@@ -58,7 +65,21 @@
    }
    
     #form p {
-        font-size: 1.3em;
+        font-size: 1.4em;
+        padding-bottom: 20px;
     }
 
+
+    .campo > input {
+        width: 80%;
+        font-size: 1.2em;
+    }
+
+    form > a#botao {
+        font-size: 1.2em;
+    }
+
+    form > input[type=submit] {
+        font-size: 1.2em;
+    }
 }

@@ -31,7 +31,6 @@ main {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
 
     background-color: white;
     width: 250px;
@@ -40,6 +39,7 @@ main {
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.455);
 
+    transform: translate(-50%, -50%);
     transition: width 0.3s, height 0.3s;
     transition-timing-function: ease;
 }
@@ -62,3 +62,71 @@ display: block;
     margin-bottom: 10px;
 }
 
+#form p {
+    margin-bottom: 15px;
+}
+
+form .campo {
+    width: 100%;
+    display: block;
+    margin: 5px 10px;
+}
+
+.campo > label {
+    display: none;
+}
+
+.campo > span {
+    width: 35px;
+    padding: 5px;
+}
+
+.campo > input {
+    font-size: 1em;
+    height: 100%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 4px;
+    transform: translateY(-5px);
+
+}
+
+.campo > input:focus-within {
+    background-color: #c8dcfc;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: gray;
+    color: lightgray;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+form > input[type=submit]:hover {
+    background-color: var(--verde);
+    color: rgb(71, 71, 71);
+}
+
+form > a#botao {
+    display: block;
+    font-size: 1em;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    background-color: lightgray;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+    margin-top: 10px;
+}
+
+form > a#botao:hover {
+    background-color: var(--verde);
+}
